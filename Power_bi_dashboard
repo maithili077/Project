@@ -1,0 +1,74 @@
+Project Title:
+Zepto Operational Analytics
+
+Objective:
+To develop an interactive Power BI dashboard that provides a comprehensive view of Zepto’s sales and customer ratings across various outlet types, sizes, and locations. The dashboard supports stakeholders in analysing trends, optimizing strategies, and making informed decisions to drive growth in the hyperlocal delivery market.
+
+Problem Statement:
+Zepto, a fast grocery delivery service, lacked a centralized system to track sales, ratings, and outlet performance. This made it difficult for decision-makers to assess item popularity, optimize inventory, and manage outlets efficiently across different city tiers. The dashboard addresses this challenge by offering real-time, visual insights into outlet operations and customer preferences.
+
+Data Description:
+Data Source: Internal Zepto systems (sales & outlet management)
+Volume: ~6,000 records
+Key Fields:
+oSales
+oRating
+oOutlet Type
+oOutlet Size
+oOutlet Location Type (e.g., Tier 1)
+oItem Type
+oYear of Establishment
+Data Cleaning Steps:
+oRemoved duplicates and inconsistent labels
+oImputed or excluded missing values
+oStandardized category names
+oFocused on small outlets in Tier 1 for deep analysis
+
+
+Target Audience:
+Managers: Assess store performance in Tier 1 cities, stock decisions, outlet improvements
+Business Analysts: Identify top-selling items and highly rated outlets
+Senior Leaders: Evaluate overall performance, guide future planning
+
+Key Features of the Dashboard:
+Interactive Filters: Filter by outlet type, size, location, and item category
+KPIs: Displays key figures like total sales (₹444.79K) and ratings (12K)
+Outlet Comparison: Compare Grocery Store vs. Supermarket Type1
+Item-Type Breakdown: Identify top-selling product categories
+Establishment Trends: Line chart showing outlet growth over years
+Drill-Down Visuals: Pie and bar charts for deeper insights
+
+Tools and Techniques Used:
+Tools: Power BI, Excel, SQL
+Techniques:
+oDAX for calculated metrics
+oBar, pie, and line visuals
+oData relationships and slicers for filtering
+oPre-cleaning in Excel
+
+Project Scope and Limitations:
+Scope:
+Analyse sales, outlet performance, and customer ratings across Tier 1–3 cities
+Focused on small outlet sizes and selected item categories
+Limitations:
+Limited to small outlet sizes
+Dataset doesn't cover all years and outlet types
+Some item categories have sparse data, especially in Tier 3
+
+
+Outcome / Expected Results (Summary):
+Supermarket Type1 is the top-performing outlet in both sales and ratings
+Small outlets in Tier 1 and 2 drive most of the revenue
+Top-selling items include Household, Snacks, and Fruits
+Peak outlet growth observed in 2015–2016, marking business expansion
+
+
+
+
+
+
+
+
+
+
+
